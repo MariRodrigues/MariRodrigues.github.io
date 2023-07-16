@@ -8,7 +8,7 @@
                 <ul>
                     <li><a href="../pages/Home.vue">Home</a></li>
                     <li><a href="#sobre-mim">Sobre</a></li>
-                    <li><a href="#fundo">Skills</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#projetos">Projetos</a></li>
                 </ul>
 

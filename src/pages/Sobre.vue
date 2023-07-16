@@ -6,22 +6,20 @@
 
             </div>
             <div class="texto">
-                <p><br>It is a long established fact that a reader will be distracted by the readable content of a page
-                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution of letters, as opposed to using 'Content here, content here', making it look like
-                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
-                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
-                    (injected humour and the like). <br><br>
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration in some form, by injected humour, or randomised words which don't look even slightly
-                    believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
-                    anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet
-                    tend to repeat predefined chunks as necessary,
-                    <br><br>
-                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
-                    Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in
-                    their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                <p>Meu nome é Mariana e sou formada em Ciência da Computação pela Universidade Nove de Julho (Univove). 
+                Desde sempre, tenho uma paixão pela tecnologia e um forte interesse em me tornar uma desenvolvedora backend.
+                <br><br>
+                Iniciei minha jornada de estudos na área de programação ao concluir um curso técnico em Mecatrônica em 2015. Foi nesse 
+                momento que decidi que a programação seria minha carreira e me tornei determinada a estudar e me aprimorar na área.
+                <br><br>
+                Atualmente, trabalho na empresa Clearsale, onde atuo como desenvolvedora backend em uma equipe utilizando 
+                tecnologias como C#, .NET, SQL Server, Entity Framework, Identity e Dapper. Trabalhamos com metodologias 
+                ágeis, como Scrum e Kanban, para promover um ambiente colaborativo e eficiente.
+                <br><br>
+                Meu foco principal continua sendo o desenvolvimento backend, mas também tenho interesse em expandir meu 
+                conhecimento em outras áreas relacionadas, como front-end e arquitetura. Estou sempre em busca de novos 
+                desafios e oportunidades para aprimorar minha trajetória profissional, mantendo-me atualizada sobre as 
+                tendências e melhores práticas da indústria.
                 </p>
 
             </div>
@@ -70,8 +68,8 @@ section {
 
 .texto {
     /* top | right | bottom | left */
-    padding: 0px 100px 10px 100px;
-    align-items: center;
+    padding: 0px 100px 50px 100px;
+
 }
 
 .texto p {

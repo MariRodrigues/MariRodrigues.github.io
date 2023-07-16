@@ -10,27 +10,25 @@
                     <a href="https://github.com/MariRodrigues/EcommerceAPI" target="_blank"><img src="../assets/img/ecommerceApi.png" alt="Avatar"></a>
                     <div class="descricao">
                         <h4><b>API Ecommerce</b></h4>
-                        <p>Projeto de API REST, feita em .NET. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type
-                    specimen book.</p>
+                        <p>API didática para um e-commerce, implementada utilizando .NET 5, Dapper e Entity Framework para mapeamento ORM. Aplica 
+                            conceitos de clean code e SOLID, seguindo a organização de Design Orientado ao Domínio (DDD). Adota o padrão 
+                            CQRS e inclui testes unitários e de integração.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <a href="https://github.com/MariRodrigues/EcommerceAPI" target="_blank"><img src="../assets/img/bg.png" alt="Avatar"></a>
+                    <a href="https://github.com/MariRodrigues/EcommerceFront" target="_blank"><img src="../assets/img/EmDev22.png" alt="Avatar"></a>
                     <div class="descricao">
                         <h4><b>Ecommerce Front</b></h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type
-                    specimen book.</p>
+                        <p>Front-end desenvolvido com Vue.js, Bootstrap e Axios. Implementa a página principal e cadastro de categorias. 
+                            Objetiva conectar-se à API back-end para aprendizado e demonstração funcional.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <a href="https://github.com/MariRodrigues/EcommerceAPI" target="_blank"><img src="../assets/img/bg.png" alt="Avatar"></a>
+                    <a href="https://github.com/MariRodrigues/UsuariosAPI" target="_blank"><img src="../assets/img/EmDev33.png" alt="Avatar"></a>
                     <div class="descricao">
                         <h4><b>API Usuários</b></h4>
-                        <p>Architect & Engineer</p>
+                        <p>API para autenticação e autorização de usuários no e-commerce. Integra-se às controllers da EcommerceAPI, 
+                            usando o Identity Framework para gerenciar as funcionalidades de autorização.</p>
                     </div>
                 </div>
 
@@ -52,7 +50,7 @@ export default {
 section {
     background-image: url('../assets/img/texture-background.png');
     width: 100%;
-    height: 850px;
+    height: 790px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +58,7 @@ section {
 
 .container {
     width: 70%;
-    height: 80%;
+    height: 85%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -121,7 +119,7 @@ section {
 .descricao {
     /* top | right | bottom | left */
   padding: 2px 16px;
-  height: 200px;
+  height: 210px;
 }
 
 .descricao p {

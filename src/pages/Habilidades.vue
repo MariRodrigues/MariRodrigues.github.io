@@ -1,5 +1,5 @@
 <template>
-    <section id="fundo">
+    <section id="skills">
         <div class="container">
             <div class="titulo">
                 <h1><strong>Formação & Certificados</strong></h1>
@@ -103,9 +103,9 @@ export default {
 </script>
 
 <style scoped>
-#fundo {
+#skills {
     width: 100%;
-    height: 1000px;
+    height: 990px;
     background-image: url('../assets/img/texture-background.png');
 
 }
@@ -122,10 +122,11 @@ export default {
 .titulo {
     width: 500px;
     margin: 5px;
-    margin-top: 30px;
     padding: 5px;
     text-align: center;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo h1 {
@@ -135,6 +136,7 @@ export default {
 }
 
 .conteudo {
+    margin-top: 20px;
     width: 70%;
     display: flex;
     justify-content: space-around;
@@ -259,7 +261,7 @@ transition: 0.2s opacity;
 }
 
 .icone-skill:hover {
-box-shadow: #FF66C4 2px 2px 1px;
+box-shadow: #fc92d3 2px 2px 1px;
 }
 
 .habilidades .descricao {

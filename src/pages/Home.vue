@@ -6,7 +6,7 @@
 
             </div>
             <div class="texto">
-                <p class="titulo"><strong>Mariana Souza</strong></p>
+                <p class="titulo">Mariana Souza</p>
                 <h3>Desenvolvedora Backend</h3>
 
             </div>
@@ -84,8 +84,8 @@ main {
 }
 
 .texto .titulo {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 60px;
 }
 
 
