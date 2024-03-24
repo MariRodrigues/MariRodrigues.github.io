@@ -1,1 +1,125 @@
-<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="./logo-mrdev.png"><title>MariDev</title><script defer="defer" src="/js/chunk-vendors.c3ccf04e.js"></script><script defer="defer" src="/js/app.d31f9af4.js"></script><link href="/css/app.a347758b.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but maridev doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sua Página</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="sidebar">
+        <img src="img/foto-rosa.png" alt="Foto de perfil" class="perfil">
+        <div class="nome-perfil">
+            <h1>Mariana Rodrigues</h1>
+            <h4>Desenvolvedora Backend</h4>
+        </div>
+        <nav class="navegacao">
+            <div class="redes-sociais">
+                <a href="https://github.com/MariRodrigues" target="_blank"><img alt="Foto-Perfil" class="icones"
+                        src="img/github-pink.png"></a>
+                <a href="https://www.instagram.com/marisouzaas2/" target="_blank"><img alt="Foto-Perfil" class="icones"
+                        src="img/insta-pink.png"></a>
+                <a href="https://www.linkedin.com/in/mariana-rodrigues-de-souza-522321124/" target="_blank"><img alt="Foto-Perfil" class="icones"
+                        src="img/linkedin-pink.png"></a>
+                <a href="https://web.facebook.com/MariSouzaaS2/" target="_blank"><img alt="Foto-Perfil" class="icones"
+                        src="img/face-pink.png"></a>
+            </div>
+        </nav>
+        <div class="descricao-perfil">
+            <p>Seguindo os conselhos do ET Bilu: buscando conhecimentos 😁</p>
+        </div>
+    </div>
+    <div class="conteudo">
+        <section class="sobre-mim">
+            <h1>Olá, eu sou a Mari.</h1>
+            <p>Meu nome é Mariana, tenho 26 anos e resido em São Paulo.             </br></br>
+                Atualmente, atuo como desenvolvedora backend e faço uso de tecnologias como <strong>C#</strong>, <strong>.NET</strong>, <strong>SQL Server</strong>, Entity Framework, Identity e Dapper. Minha rotina envolve a aplicação de metodologias ágeis, como Scrum e Kanban, que reforçam a colaboração e eficiência dentro da equipe.
+            </br></br>  
+                Embora meu foco principal seja o desenvolvimento backend, estou sempre explorando áreas complementares como o desenvolvimento front-end e arquitetura de sistemas. 
+                Gosto de desafios que me permitam continuar crescendo profissionalmente e me manter atualizada com as tendências e inovações do setor.</p>
+        
+        </section>
+        <section class="projetos">
+                <h2>Formação & Principais Certificados</h2>
+                <p>Graduada em <strong>Ciência da Computação</strong> pela Universidade Nove de Julho (Uninove). Desde o início da minha jornada acadêmica, busquei aprofundar meu entendimento teórico e prático em desenvolvimento de software, com um foco especial em backend.
+                </br>
+                <p>Estou constantemente buscando aperfeiçoar minhas habilidades e aprender tecnologias novas através de cursos e projetos práticos. Abaixo os mais recentes concluídos:</p>
+            </br>
+                <div class="curso">
+                    <a href="https://cursos.alura.com.br/formacao-dotnet-v95996" target="_blank"><img
+                            src="img/download.png"></a>
+                    <div class="infos-curso">
+                        <h1>ASP.NET Core REST APIs</h1>
+                        <h3>CONCLUÍDO EM JANEIRO/2023</h3>
+                        <p>Principais conceitos de API Rest com ASP.NET Core e boas práticas de desenvolvimento.
+                            A formação Alura reúne 4 cursos, abordando desde os verbos essenciais em HTTP,
+                            mapeamento de entidades com banco de dados utilizando o Entity Framework, e também
+                            focando na
+                            segurança de APIs com o Identity, onde foi implementada a lógica para controle de
+                            usuários trazendo conceitos de autorização e autenticação.</p>
+                    </div>
+                </div>
+                <div class="curso">
+                    <a href="https://www.alura.com.br/formacao-boas-praticas-c-sharp" target="_blank"><img
+                            src="img/download.png"></a>
+                    <div class="infos-curso">
+                        <h1>Boas Práticas em C#</h1>
+                        <h3>CONCLUÍDO EM JANEIRO/2023</h3>
+                        <p>Formação que reúne cursos com abordagens de boas práticas no desenvolvimento de Software
+                            com C#: Design Patterns, SOLID, Clean Code.</p>
+                    </div>
+                </div>
+                <div class="curso">
+                    <a href="https://balta.io/cursos/refatorando-para-testes-de-unidade" target="_blank"><img
+                            src="img/BALTA2.png"></a>
+                    <div class="infos-curso">
+                        <h1>Refatorando para Testes de Unidade</h1>
+                        <h3>CONCLUÍDO EM JANEIRO/2023</h3>
+                        <p>Curso focado em refatoração e reescrita de código legado, incluindo Testes Unitários
+                            para facilitar e aumentar a confiabilidade nas entregas.</p>
+                    </div>
+                </div>
+        </section>
+        <section class="projetos">
+            <h2>Meus projetos</h2>
+            <div class="cards">
+                <div class="card">
+                    <a href="https://github.com/MariRodrigues/EcommerceAPI" target="_blank"><img src="img/15.png" alt="Avatar"></a>
+                    <div class="descricao">
+                        <h4><b>API Ecommerce</b></h4>
+                        <p>API de e-commerce construída com .NET 5, integrando Dapper e Entity Framework para ORM. Adere a princípios de clean code e SOLID, 
+                            alinhada ao DDD e padrão CQRS, com testes unitários e de integração.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="https://github.com/MariRodrigues/EcommerceFront" target="_blank"><img src="img/13.png" alt="Avatar"></a>
+                    <div class="descricao">
+                        <h4><b>Microsserviço com Mensageria</b></h4>
+                        <p>Projeto de mensageria que interliga duas APIs com um broker console, utilizando .NET 6 e RabbitMQ para gestão de comunicação assíncrona, desenhado para aprofundar práticas de troca de mensagens e processamento distribuído.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="https://github.com/MariRodrigues/UsuariosAPI" target="_blank"><img src="img/14.png" alt="Avatar"></a>
+                    <div class="descricao">
+                        <h4><b>API de usuários</b></h4>
+                        <p>API para autenticação e autorização de usuários no e-commerce. Integra-se às controllers da EcommerceAPI, 
+                            usando o Identity Framework para gerenciar as funcionalidades de autorização.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="https://github.com/MariRodrigues/UsuariosAPI" target="_blank"><img src="img/16.png" alt="Avatar"></a>
+                    <div class="descricao">
+                        <h4><b>Projeto Dockerizado</b></h4>
+                        <p>Microsserviço em .NET 6 encapsulado com Docker e orquestrado via Docker Compose, garantindo portabilidade 
+                            e consistência entre ambientes. Utiliza GitHub Actions para CI/CD, automatizando o build e push de imagens ao Docker Hub a cada commit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+</body>
+</html>
