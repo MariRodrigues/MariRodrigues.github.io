@@ -98,13 +98,14 @@ p {
 
 .curso h1 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     color: rgb(24, 23, 23);
+    margin-top: 0;
 }
 
 .curso h3 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     color: #ff6ec7;
 }
 
